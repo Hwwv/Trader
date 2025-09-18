@@ -22,6 +22,7 @@ public class Hatchimal implements Tradable {
         return new StringBuilder()
                 .append("Hatchimal{")
                 .append("name='").append(name).append('\'')
+            \\ single ''' here is just not showing the backslash out
                 .append(", rarity=").append(rarity)
                 .append('}').toString();
     }
